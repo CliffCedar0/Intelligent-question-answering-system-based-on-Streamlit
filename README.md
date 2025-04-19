@@ -22,6 +22,17 @@ This is an intelligent Q&A system built with Streamlit, integrating local knowle
 - FAISS: 用于向量相似度搜索 / For vector similarity search
 - HuggingFace BGE Embeddings: 用于文本向量化 / For text vectorization
 - 智谱AI API: 用于生成回答 / ZhipuAI API: For generating answers
+  - 访问 [智谱AI官网](https://bigmodel.cn/) 了解更多 / Visit [ZhipuAI Official Website](https://bigmodel.cn/) to learn more
+
+## 系统架构 / System Architecture
+
+![RAG Architecture](image/WechatIMG6997.jpg)
+
+The system uses a Retrieval-Augmented Generation (RAG) architecture, which combines:
+1. Document processing and embedding
+2. Vector database storage
+3. Semantic search and retrieval
+4. LLM-based response generation
 
 ## 安装与配置 / Installation & Configuration
 
